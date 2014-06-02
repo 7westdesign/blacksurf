@@ -172,7 +172,7 @@ color:#00B2EE;
 }
 
 #standout {
-color:#ff4dc4;
+color:#6bff4d;
 }
 .standout2 {
 color:#6bff4d;
@@ -218,7 +218,7 @@ margin-top:0px;
 font-size:25px;
 	margin: 0;
 	padding: 0;
-        text-shadow: 2px 4px 3px rgba(0,0,0,0.7);
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.7);
 }
 
 #templatemo_header  .site_marketing_first {
@@ -233,41 +233,41 @@ background-color:rgba(255,77,196,1);
 
 #templatemo_header  .site_marketing_first h1 {color:#fff;
 	margin: 0;
-	font-size:18px;
+	font-size:17px;
 	padding: 0;
-        text-shadow: 2px 3px 3px rgba(0,0,0,1);
+        text-shadow: 2px 2px 2px rgba(0,0,0,1);
 }
 
 #templatemo_header  #site_marketing {
 	float: right;
 	clear:both;
 	padding: 20px 20px 20px 20px;
-	margin-top:10px;
+	margin-top:15px;
 	margin-right:100px;
         background-color:#00B2EE;
 }
 
 #templatemo_header  #site_marketing2 h1 {color:#fff;
 	margin: 0;
-	font-size:18px;
+	font-size:17px;
 	padding: 0;
-        text-shadow: 2px 3px 3px rgba(0,0,0,1);
+        text-shadow: 2px 2px 2px rgba(0,0,0,1);
 }
 
 #templatemo_header  #site_marketing2 {
 	float: right;
 	clear:both;
 	padding: 20px 20px 20px 20px;
-	margin-top:10px;
+	margin-top:15px;
 	margin-right:100px;
-          background:#00FF00;
+          background:#00B2EE;
 }
 
 #templatemo_header  #site_marketing3 h1 {color:#fff;
 	margin: 0;
 	font-size:18px;
 	padding: 0;
-        text-shadow: 2px 3px 3px rgba(0,0,0,1);
+        text-shadow: 2px 2px 2px rgba(0,0,0,1);
 }
 #templatemo_header  #site_marketing3 {
 	float: right;
@@ -281,7 +281,7 @@ background-color:rgba(255,77,196,1);
 
 #templatemo_header  #site_marketing h1 {color:#fff;
 	margin: 0;
-	font-size:18px;
+	font-size:16px;
 	padding: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,1);
 }
@@ -329,11 +329,19 @@ padding:2px 4px 2px 4px;
 	float: left;
 	width: 300px;
 	height: 400px;
-	padding: 10px;
+	padding: 0;
 	margin-top:-90px;
 	margin-right:22px;
-	 background-color:rgba(255,255,255,1);
+	 background-color:#DCDCDC;
 
+}
+
+.blackbox {
+margin:0;
+padding:10px;
+width: 300px;
+height: 300px;
+background-color: #000;
 }
 
 #pikesurfimage1 {

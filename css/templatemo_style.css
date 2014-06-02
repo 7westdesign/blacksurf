@@ -12,7 +12,7 @@ body {
 	background-color: #000;
 }
 
-.wrapper { width:100%;margin:0 auto;overflow: hidden; }
+.wrapper { min-width:1330px;margin:0 auto;overflow: hidden; }
 
 a, a:link, a:visited {
 	color:#c0c0c2;
@@ -202,6 +202,7 @@ margin-right:49px;
 padding-top:1px;
 color:#00FF00;
 text-decoration:none;
+padding:4px;
 }
 a.paynow:hover {
 font-size:11px;
@@ -209,6 +210,8 @@ float:right;
 margin-right:49px;
 padding-top:1px;
 color:#fff;
+padding:4px;
+background-color:rgba(255,77,196,1);
 text-decoration:none;
 }
 p.paynow {
@@ -244,6 +247,7 @@ margin-top:0px;
 	clear:both;
 	padding: 20px 20px 20px 20px;
 	margin-top:75px;
+	
 	margin-left:50px;
          background-color:#00B2EE;
 }
@@ -259,7 +263,7 @@ font-size:25px;
 	float: right;
 	clear:both;
 	padding: 20px 20px 20px 20px;
-	margin-top:-57px;
+	margin-top:-50px;
 	margin-right:100px;
 background-color:rgba(255,77,196,.8);
       

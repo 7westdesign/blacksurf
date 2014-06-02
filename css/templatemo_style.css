@@ -116,7 +116,9 @@ z-index:10;
  margin-top:-20px;	
 }
 
-
+.description {
+text-indent:4px;
+}
 
 .turqp {
 color: #FFCC00;
@@ -340,8 +342,6 @@ background-color:rgba(255,77,196,.8);
 width:390px;
 margin-left:50px;
 margin-top:9px;
-
-
 }
 
 /* end of header */
@@ -428,6 +428,7 @@ background:#000;
 
 #templatemo_content h1 {
 font-size:24px;
+margin-top:11px;
 margin-bottom:11px;
 font-family: 'Open Sans', sans-serif;
 
@@ -648,8 +649,8 @@ font-family: 'Open Sans', sans-serif;
 }
 
 #templatemo_footer img{
-	padding: 4px;
-	background: #000;
+	padding: 10px;
+	background: #fff;
 	border: 1px solid #34322f;
 	margin-bottom: 10px;
 }

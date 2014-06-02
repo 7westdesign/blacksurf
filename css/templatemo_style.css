@@ -157,13 +157,13 @@ color: #ff4dc4;
 	font-weight: normal;
 	outline: none;
 }
-#templatemo_menu li .current {
- background-color:rgba(255,77,196,1.0);
+#templatemo_menu li .current {background:#00B2EE;
+
 
 }
 #templatemo_menu li a:hover {
 	 color: #fff;
-	background:#00B2EE;
+	 background-color:rgba(255,77,196,1);
        
 }
 
@@ -172,8 +172,11 @@ color:#00B2EE;
 }
 
 #standout {
-color:#00688B;
-text-shadow: none;
+color:#ff4dc4;
+}
+.standout2 {
+color:#6bff4d;
+
 }
 
 
@@ -192,7 +195,7 @@ text-shadow: none;
 #templatemo_header {
 z-index:0;
 margin-top:0px;
-	;
+	
 	width: 100%;
 	height: 700px;
 	padding: 20px 30px;
@@ -207,29 +210,80 @@ margin-top:0px;
 	float: left;
 	clear:both;
 	padding: 20px 20px 20px 20px;
-	margin-top:85px;
-         background-color:#00FF00;
+	margin-top:75px;
+         background-color:#00B2EE;
 }
 
 #templatemo_header  #site_title h1 {color:#fff;
+font-size:25px;
 	margin: 0;
 	padding: 0;
         text-shadow: 2px 4px 3px rgba(0,0,0,0.7);
 }
 
-#templatemo_header  .site_marketing {
-	float: left;
+#templatemo_header  .site_marketing_first {
+	float: right;
 	clear:both;
 	padding: 20px 20px 20px 20px;
-	margin-top:20px;
-        background-color:#00B2EE;
+	margin-top:-57px;
+	margin-right:100px;
+background-color:rgba(255,77,196,1);
+      
 }
 
-#templatemo_header  .site_marketing h1 {color:#fff;
+#templatemo_header  .site_marketing_first h1 {color:#fff;
 	margin: 0;
 	font-size:18px;
 	padding: 0;
-        text-shadow: 2px 4px 3px rgba(0,0,0,1);
+        text-shadow: 2px 3px 3px rgba(0,0,0,1);
+}
+
+#templatemo_header  #site_marketing {
+	float: right;
+	clear:both;
+	padding: 20px 20px 20px 20px;
+	margin-top:10px;
+	margin-right:100px;
+        background-color:#00B2EE;
+}
+
+#templatemo_header  #site_marketing2 h1 {color:#fff;
+	margin: 0;
+	font-size:18px;
+	padding: 0;
+        text-shadow: 2px 3px 3px rgba(0,0,0,1);
+}
+
+#templatemo_header  #site_marketing2 {
+	float: right;
+	clear:both;
+	padding: 20px 20px 20px 20px;
+	margin-top:10px;
+	margin-right:100px;
+          background:#00FF00;
+}
+
+#templatemo_header  #site_marketing3 h1 {color:#fff;
+	margin: 0;
+	font-size:18px;
+	padding: 0;
+        text-shadow: 2px 3px 3px rgba(0,0,0,1);
+}
+#templatemo_header  #site_marketing3 {
+	float: right;
+	clear:both;
+	padding: 20px 20px 20px 20px;
+	margin-top:28px;
+	margin-right:100px;
+          background:#00FF00;
+}
+
+
+#templatemo_header  #site_marketing h1 {color:#fff;
+	margin: 0;
+	font-size:18px;
+	padding: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,1);
 }
 #templatemo_header  #site_title h1 a{
 	margin: 0px;
@@ -240,23 +294,7 @@ margin-top:0px;
 	text-decoration: none;
 }
 
-#templatemo_header  #site_title h1 a span {
-	display: block;
-	text-align: left;
-	font-size: 14px;
-	color: #5f6675;
-	font-weight: bold;
-	letter-spacing: 2px;
-}
 
-#templatemo_header #templatemo_slider {
-	float: right;
-	width: 430px;
-	height: 200px;
-	padding: 10px;
-	background: url(../images/templatemo_slider.png) no-repeat;
-	
-}
 
 /* end of header */
 
@@ -294,13 +332,13 @@ padding:2px 4px 2px 4px;
 	padding: 10px;
 	margin-top:-90px;
 	margin-right:22px;
-	 background-color:rgba(255,255,255);
+	 background-color:rgba(255,255,255,1);
 
 }
 
 #pikesurfimage1 {
 padding:10px;
-width:270px;
+width:280px;
 height:200px;
 
 }

@@ -79,7 +79,7 @@ a.button  {
 	padding: 10px 0 0 0;
 	margin:0;
 	margin-top:4px;
-	background: #00B2EE;
+	background: #00FF00;
 	color: #ccc;
 	font-weight: bold;
 	font-size: 12px;
@@ -91,7 +91,7 @@ a.button  {
 
 a.button:hover {
 	color: #fff;
-	background:#00FF00;
+	background:#00B2EE;
 }
 
 ul {
@@ -232,14 +232,6 @@ text-decoration:none;
 color:#00FF00;
 }
 
-.templatemo_header_wrapper2 {
-	width: 100%;
-	height: 400px;
-        background: #fff;
-	border-bottom: 1px solid #000;
-       margin-top:25px;
-}
-
 
 #templatemo_header {
 z-index:0;
@@ -262,7 +254,7 @@ margin-top:0px;
 	height: 400px;
 	padding: 20px 30px;
 	margin: 0 auto;
-	background: url(../images/ys.jpg) no-repeat;
+	background: url(../images/12.jpg) no-repeat;
         background-size:cover;
 }
 
@@ -274,7 +266,7 @@ margin-top:0px;
 	height: 400px;
 	padding: 20px 30px;
 	margin: 0 auto;
-	background: url(../images/best1.jpg) no-repeat;
+	background: url(../images/12.jpg) no-repeat;
         background-size:cover;
 
 
@@ -287,7 +279,7 @@ margin-top:0px;
 	height: 400px;
 	padding: 20px 30px;
 	margin: 0 auto;
-	background: url(../images/ch1.jpg) no-repeat;
+	background: url(../images/12.jpg) no-repeat;
         background-size:cover;
 }
 
@@ -299,9 +291,32 @@ margin-top:0px;
 	height: 400px;
 	padding: 20px 30px;
 	margin: 0 auto;
-	background: url(../images/couples.jpg) no-repeat;
+	background: url(../images/12.jpg) no-repeat;
         background-size:cover;
 }
+
+.templatemo_header_wrapper2 {
+	width: 100%;
+	height: 62px;
+        background: #fff;
+	border-bottom: 1px solid #000;
+       margin-top:25px;
+}
+
+#templatemo_header2 {
+z-index:0;
+margin-top:0px;
+	
+	width: 100%;
+	height: 62px;
+	padding: 20px 30px;
+	margin: 0 auto;
+	background: url(../images/12.jpg) no-repeat;
+        background-size:cover;
+
+}
+
+/* Header # 6 */
 
 .templatemo_header_wrapper6 {
 	width: 100%;

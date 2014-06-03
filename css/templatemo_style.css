@@ -122,7 +122,6 @@ text-indent:4px;
 
 .turqp {
 color: #FFCC00;
-font-size:15px;
 }
 
 .firststand {
@@ -185,6 +184,7 @@ color:#6bff4d;
 }
 .standout2 {
 color:#6bff4d;
+font-style:italic;
 
 }
 
@@ -201,14 +201,14 @@ color:#6bff4d;
        margin-top:25px;
 }
 
+
 a.paynow {
 font-size:11px;
 float:right;
 margin-right:49px;
-padding-top:1px;
-color:#fff;background-color:rgba(255,77,196,1);
+color:#fff;
 text-decoration:none;
-padding:4px;
+padding:3px;
 }
 a.paynow:hover {
 font-size:11px;
@@ -216,8 +216,7 @@ float:right;
 margin-right:49px;
 padding-top:1px;
 color:#fff;
-padding:4px;
-
+padding:3px;
 text-decoration:none;
 }
 p.paynow {
@@ -233,6 +232,14 @@ text-decoration:none;
 color:#00FF00;
 }
 
+.templatemo_header_wrapper2 {
+	width: 100%;
+	height: 400px;
+        background: #fff;
+	border-bottom: 1px solid #000;
+       margin-top:25px;
+}
+
 
 #templatemo_header {
 z-index:0;
@@ -242,7 +249,34 @@ margin-top:0px;
 	height: 700px;
 	padding: 20px 30px;
 	margin: 0 auto;
-	background: url(../images/lp.jpg) no-repeat;
+	background: url(../images/ys.jpg) no-repeat;
+        background-size:cover;
+
+
+}
+#templatemo_header2 {
+z-index:0;
+margin-top:0px;
+	
+	width: 100%;
+	height: 400px;
+	padding: 20px 30px;
+	margin: 0 auto;
+	background: url(../images/ys.jpg) no-repeat;
+        background-size:cover;
+
+
+}
+
+#templatemo_header3 {
+z-index:0;
+margin-top:0px;
+	
+	width: 100%;
+	height: 400px;
+	padding: 20px 30px;
+	margin: 0 auto;
+	background: url(../images/best1.jpg) no-repeat;
         background-size:cover;
 
 
@@ -263,6 +297,23 @@ font-size:25px;
 	margin: 0;
 	padding: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,1);
+}
+
+.about_heading {
+
+width:404px;
+height:150px;
+margin:0 auto;
+margin-top:100px;
+
+}
+
+#templatemo_header2 .about_heading h1 {color: rgba(0, 0, 0, 0.2);
+font-size:33px;
+	margin: 0;
+	padding: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.9);
+font-family: 'Open Sans', sans-serif;
 }
 
 #templatemo_header  .site_marketing_first {
@@ -416,7 +467,13 @@ height:200px;
         background:#000;
 	border-bottom: 1px solid #282829;	
 }
-
+#templatemo_content_wrapper2 {
+margin-top:0;
+	clear: both;
+	width: 100%;
+        background:#000;
+	border-bottom: 1px solid #282829;	
+}
 #templatemo_content {
 	width: 1030px;
 	padding: 60px 30px;
@@ -435,8 +492,8 @@ font-family: 'Open Sans', sans-serif;
 }
 #templatemo_content p{
 	color:#fff;
-
 }
+
 
 .two_column {
 	width: 430px;
@@ -452,6 +509,11 @@ font-family: 'Open Sans', sans-serif;
 
 .services_section h4 {
 	margin-bottom: 20px;
+}
+
+.services_section h3 {
+	margin-bottom: 20px;
+	margin-left:644px;
 }
 
 .services_section .left {
@@ -473,6 +535,11 @@ font-family: 'Open Sans', sans-serif;
 .services_section .left img {
 	border:1px solid #CCC;
 	padding: 5px;
+}
+
+#video_summary {
+margin-top:18px;
+
 }
 
 /* post */

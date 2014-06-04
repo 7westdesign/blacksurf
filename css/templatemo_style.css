@@ -110,14 +110,15 @@ ul li {
 #templatemo_menu_wrapper {
 margin-left:-30px;
 width: 100%;
-height: 60px;
-background-color:rgba(0,0,0,0.4);
+height: 61px;
+background-color:rgba(0,0,0,0.2);
 z-index:10;
  margin-top:-20px;	
 }
 
 .description {
 text-indent:4px;
+color:#fff;
 }
 
 .turqp {
@@ -193,15 +194,6 @@ font-style:italic;
 
 /* header */
 
-#templatemo_header_wrapper {
-	width: 100%;
-	height: 700px;
-        background: #fff;
-	border-bottom: 1px solid #000;
-        margin-top:25px;
-}
-
-
 a.paynow {
 font-size:11px;
 float:right;
@@ -236,14 +228,12 @@ color:#00B2EE;
 #templatemo_header {
 z-index:0;
 margin-top:0px;
-	
+	background: url(../images/12.jpg) no-repeat;
 	width: 100%;
-	height: 700px;
 	padding: 20px 30px;
 	margin: 0 auto;
-	background: url(../images/ys.jpg) no-repeat;
+	height: 62px;
         background-size:cover;
-
 
 }
 #templatemo_header2 {
@@ -251,12 +241,26 @@ z-index:0;
 margin-top:0px;
 	
 	width: 100%;
-	height: 400px;
+	height: 62px;
 	padding: 20px 30px;
 	margin: 0 auto;
 	background: url(../images/12.jpg) no-repeat;
         background-size:cover;
 }
+.templatemo_header_wrapper2 {
+	width: 100%;
+	height: 63px;
+        background: #fff;
+       margin-top:25px;
+}
+
+#templatemo_header_wrapper {
+	width: 100%;
+	height: 63px;
+        background: #fff;
+        margin-top:25px;
+}
+
 
 #templatemo_header3 {
 z-index:0;
@@ -334,22 +338,23 @@ margin-top:0px;
 	height: 62px;
 	padding: 20px 30px;
 	margin: 0 auto;
-	background: url(../images/boty.jpg) no-repeat;
+	background: url(../images/12.jpg) no-repeat;
         background-size:cover;
 }
 
 
-#templatemo_header  #site_title {
+#templatemo_content1 #site_title {
 	float: left;
 	clear:both;
 	padding: 20px 20px 20px 20px;
 	margin-top:75px;
-	
+	margin-top:10px;
+      z-index:100;
 	margin-left:50px;
          background-color:#00B2EE;
 }
 
-#templatemo_header  #site_title h1 {color:#fff;
+ #templatemo_content1  #site_title h1 {color:#fff;
 font-size:25px;
 	margin: 0;
 	padding: 0;
@@ -373,7 +378,18 @@ font-size:33px;
 font-family: 'Open Sans', sans-serif;
 }
 
-#templatemo_header  .site_marketing_first {
+#templatemo_content1 {
+z-index:100;
+padding: 60px 30px;
+margin: 0 auto;
+background-color:none);
+position:relative;
+z-index:10;
+margin-top:-675px;
+width: 98%;
+}
+
+#templatemo_content1  .site_marketing_first {
 	float: right;
 	clear:both;
 	padding: 20px 20px 20px 20px;
@@ -383,14 +399,14 @@ background-color:rgba(255,77,196,.8);
       
 }
 
-#templatemo_header  .site_marketing_first h1 {color:#fff;
+#templatemo_content1  .site_marketing_first h1 {color:#fff;
 	margin: 0;
 	font-size:17px;
 	padding: 0;
         text-shadow: 2px 2px 2px rgba(0,0,0,1);
 }
 
-#templatemo_header  #site_marketing {
+#templatemo_content1   #site_marketing {
 	float: right;
 	clear:both;
 	padding: 20px 20px 20px 20px;
@@ -399,14 +415,14 @@ background-color:rgba(255,77,196,.8);
         background-color:#00B2EE;
 }
 
-#templatemo_header  #site_marketing2 h1 {color:#fff;
+#templatemo_content1  #site_marketing2 h1 {color:#fff;
 	margin: 0;
 	font-size:17px;
 	padding: 0;
         text-shadow: 2px 2px 2px rgba(0,0,0,1);
 }
 
-#templatemo_header  #site_marketing2 {
+#templatemo_content1 #site_marketing2 {
 	float: right;
 	clear:both;
 	padding: 20px 20px 20px 20px;
@@ -415,13 +431,13 @@ background-color:rgba(255,77,196,.8);
           background:#00B2EE;
 }
 
-#templatemo_header  #site_marketing3 h1 {color:#fff;
+#templatemo_content1 #site_marketing3 h1 {color:#fff;
 	margin: 0;
 	font-size:18px;
 	padding: 0;
         text-shadow: 2px 2px 2px rgba(0,0,0,1);
 }
-#templatemo_header  #site_marketing3 {
+#templatemo_content1  #site_marketing3 {
 	float: right;
 	clear:both;
 	padding: 20px 20px 20px 20px;
@@ -431,13 +447,13 @@ background-color:rgba(255,77,196,.8);
 }
 
 
-#templatemo_header  #site_marketing h1 {color:#fff;
+#templatemo_content1  #site_marketing h1 {color:#fff;
 	margin: 0;
 	font-size:16px;
 	padding: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,1);
 }
-#templatemo_header  #site_title h1 a{
+  #site_title h1 a{
 	margin: 0px;
 	padding: 0px;
 	font-size: 30px;
@@ -466,26 +482,28 @@ padding:2px 2px 2px 0px;
 }
 
 #templatemo_top_row_wrapper {
+margin-top:510px;
 	clear: both;
 	width: 100%;
 	height: 170px;
-	background-color:#000; 
+	background-color:none; 
 	border-bottom: 1px solid #000;
+height: 300px;
 }
 
 #templatemo_top_row {
-	width: 1030px;
+	width: 980px;
 	margin: 0 auto;
 	padding: 0 25px;
+background:#000;
 }
 
 #templatemo_top_row .top_row_box {
-	overflow: hidden;
+	
 	float: left;
 	width: 300px;
-	height: 422px;
+	height: 300px;
 	padding: 0;
-	margin-top:-90px;
 	margin-right:22px;
 	background-color:#DCDCDC;
 
@@ -495,7 +513,7 @@ padding:2px 2px 2px 0px;
 margin:0;
 padding:10px;
 width: 300px;
-height: 300px;
+height: 180px;
 background-color: #000;
 }
 
@@ -519,11 +537,12 @@ height:200px;
 /* content*/
 
 #templatemo_content_wrapper {
+margin-top:0;
 	clear: both;
 	width: 100%;
         background:#000;
-	border-bottom: 1px solid #282829;
-	
+	z-index:10;	
+position:absolute;
 }
 #templatemo_content_wrapper2 {
 margin-top:0;
@@ -534,22 +553,47 @@ margin-top:0;
 z-index:10;	
 position:absolute;
 }
-#templatemo_content {
+
+#templatemo_content7 {
+
 	width: 1030px;
 	padding: 60px 30px;
 	margin: 0 auto;
 background-color:rgba(0,0,0,0.8);
 position:relative;
 z-index:10;
+margin-top:10px;
+}
+
+#welcome {
+width:1000px;
+margin:0 auto;
+height:150px;
+padding: 60px 30px;
+position:relative;
+z-index:0;
 margin-top:0px;
+}
+
+#templatemo_content8{
+border-top: 1px solid green;
+	width: 100%;
+
+	padding: 60px 30px;
+	margin: 0 auto;
+background-color:rgba(0,0,0,0.8);
+position:relative;
+z-index:0;
+margin-top:980px;
 }
 
 
 
-#templatemo_content h1 {
+
+#templatemo_content8 h1 {
 font-size:22px;
-margin-top:11px;
-margin-bottom:11px;
+margin-top:-50px;
+margin-bottom:13px;
 font-family: 'Open Sans', sans-serif;
 color:#00B2EE;
 
@@ -561,6 +605,12 @@ font-size:14px;
 }
 
 #about_background {
+-webkit-filter: grayscale(100%);
+-webkit-filter: contrast(190%);
+z-index:0;
+width:100%;
+}
+#about_background2 {
 -webkit-filter: grayscale(100%);
 -webkit-filter: contrast(190%);
 z-index:0;
@@ -763,6 +813,7 @@ margin-top:18px;
 }
 
 #templatemo_footer {
+margin-top:0px;
 	width: 930px;
 	padding: 45px 30px;
 	margin: 0 auto;

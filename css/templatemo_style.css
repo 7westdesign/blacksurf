@@ -508,12 +508,12 @@ height: 300px;
 
 #blurpix {
         width: 944px;
-	height: 33px;
+	height: 150px;
 	z-index: 0;
 	position: absolute;
 	left:207px;
-	margin-top:-20px;
-	
+	margin-top:-56px;
+	-webkit-filter: sepia(100%);
 background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 70%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(70%,rgba(255,255,255,1)));
     background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
@@ -911,12 +911,25 @@ margin-top:0px;
 h1.marketing_header {
 font-family: 'Open Sans', sans-serif;
 font-weight:lighter;
-font-size:22px;
+font-size:19px;
 padding-left:8px;
 color:#00B2EE;
 background:#111;
 margin-bottom:12px;
 width:144px;}
+
+h1.marketing_header2 {
+font-family: 'Open Sans', sans-serif;
+font-weight:lighter;
+font-size:19px;
+padding-left:8px;
+padding-top:6px;
+padding-bottom:6px;
+color:#00B2EE;
+background:#111;
+margin-bottom:12px;
+width:250px;}
+
 
 #templatemo_footer img{
 	padding: 10px;
@@ -947,6 +960,6 @@ width:144px;}
 #templatemo_copyright a {
 	color: #fff;
 text-decoration:none;
- color:rgba(255,77,196,1);
+ color:#00B2EE;
 
 }

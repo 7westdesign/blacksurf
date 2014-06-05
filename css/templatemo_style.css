@@ -645,9 +645,9 @@ margin-top:10px;
 }
 
 #welcome {
-width:1300px;
-margin-left:-130px;
-height:150px;
+width:1140px;
+margin-left:-50px;
+height:122px;
 padding: 60px 30px;
 background: url(../images/12.jpg) no-repeat;
 position:relative;
@@ -655,14 +655,34 @@ z-index:0;
 margin-top:-28px;
 }
 #welcomecenter {
-width:1000px;
+width:900px;
 margin: 0 auto;
-height:150px;
+height:160px;
 padding: 60px 30px;
 position:relative;
 z-index:0;
 margin-top:-55px;
 }
+#welcome2 {
+width:1140px;
+margin-left:-50px;
+height:122px;
+padding: 60px 30px;
+background: url(../images/best1.jpg) no-repeat;
+position:relative;
+z-index:0;
+margin-top:-72px;
+}
+#welcomecenter2 {
+width:900px;
+margin: 0 auto;
+height:150px;
+padding: 60px 30px;
+position:relative;
+z-index:0;
+margin-top:-88px;
+}
+
 
 #templatemo_content8{
 border-top: 1px solid green;
@@ -676,6 +696,19 @@ z-index:0;
 margin-top:1000px;
 }
 
+#templatemo_content9{
+
+	width: 1100px;
+height:150px;
+	padding: 60px 30px;
+	margin: 0 auto;
+background-color:none;
+position:relative;
+z-index:0;
+margin-top:50px;
+}
+
+
 .whitedes {
 color:#fff;
 }
@@ -685,7 +718,7 @@ color: #fff;
 }
 
 #templatemo_content8 h1 {
-font-size:22px;
+font-size:19px;
 margin-top:-50px;
 margin-bottom:13px;
 font-family: 'Open Sans', sans-serif;
@@ -1020,14 +1053,14 @@ margin-top:18px;
 
 #templatemo_footer_wrapper {
 	clear: both;
+
 	width: 100%;
-	background: #000;
+	background: #000;margin-top:100px;
 	border-top: 1px solid #000;	
 	border-bottom: 1px solid #000;
 }
 
 #templatemo_footer {
-margin-top:0px;
 	width: 930px;
 	padding: 45px 30px;
 	margin: 0 auto;
@@ -1086,6 +1119,7 @@ font-size:19px;
 padding-left:8px;
 color:#00FF00;
 background:#222;
+margin-top:-160px;
 margin-bottom:12px;
 width:144px;}
 

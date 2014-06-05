@@ -144,6 +144,15 @@ line-height:144%;
 color: #FFCC00;
 }
 
+.lightp {
+color: #00B2EE;
+}
+
+.greenp {
+color: #FF0080;
+}
+
+
 .firststand {
 color:#00FF00;
 }
@@ -969,7 +978,7 @@ font-family: 'Open Sans', sans-serif;
 font-weight:lighter;
 font-size:19px;
 padding-left:8px;
-color:#00B2EE;
+color:#00FF00;
 background:#222;
 margin-bottom:12px;
 width:100px;}
@@ -979,10 +988,20 @@ font-family: 'Open Sans', sans-serif;
 font-weight:lighter;
 font-size:19px;
 padding-left:8px;
-color:#00B2EE;
+color:#00FF00;
 background:#222;
 margin-bottom:12px;
 width:205px;}
+
+.marketing_header9 {
+font-family: 'Open Sans', sans-serif;
+font-weight:lighter;
+font-size:19px;
+padding-left:8px;
+color:#00FF00;
+background:#222;
+margin-bottom:12px;
+width:130px;}
 
 h1.marketing_header2 {
 font-family: 'Open Sans', sans-serif;
@@ -991,7 +1010,7 @@ font-size:19px;
 padding-left:8px;
 padding-top:6px;
 padding-bottom:6px;
-color:#00B2EE;
+color:#00FF00;
 background:#111;
 margin-bottom:12px;
 width:250px;}

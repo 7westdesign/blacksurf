@@ -47,12 +47,8 @@
 
 </div> 
 <!-- end header wrapper -->
-
-
-
 <div id="templatemo_content_wrapper">
-	
-<div id="templatemo_content7">
+	<div id="templatemo_content7">
     	
          <h1 class="contacttitle">Questions? Want more Information?</h1>
 			<div class="two_column float_l">
@@ -62,20 +58,22 @@
 				<p class="contactp"> Sed justo dolor, convallis at, vestibulum vitae, elementum eu, pede. Morbi leo leo, tincidunt at, scelerisque a, dictum sit amet, nisi. Donec faucibus, erat quis vestibulum luctus, ante magna scelerisque nibh, non pulvinar elit risus sed est. <a href="#">Quisque tincidunt</a> commodo nisl.</p>
 				<p>&nbsp;</p>
 				<h3>Contact Pike Surf School now!</h3>
-            
-                <form method="post" name="contact" action="#">
 
-                      <label for="author">Name:</label> <input type="text" id="author" name="author" class="required input_field" />
-                      <div class="cleaner_h10"></div>
+
+            
+                <form name="contactform" method="post" action="email_us/mailer.php" class="form-horizontal" role="form">
+
+                     <div class="form-group"> <label for="inputName">Name:</label> <input type="text" class="form-control" id="inputName" name="inputName" />
+                      <div class="cleaner_h10"></div></div>
                         
-                        <label for="email">Email:</label> <input type="text" id="email" name="email" class="validate-email required input_field" />
-                      	<div class="cleaner_h10"></div>
+                       <div class="form-group"> <label for="inputEmail1">Email:</label> <input type="text" class="form-control" id="inputEmail" name="inputEmail" />
+                      	<div class="cleaner_h10"></div></div>
                         
-                        <label for="email">Subject:</label> <input type="text" id="subject" name="subject" class="validate-email required input_field" />
-                      	<div class="cleaner_h10"></div>
+                       <div class="form-group"> <label for="inputSubject">Subject:</label> <input type="text" class="form-control" id="inputSubject" name="inputSubject"  />
+                      	<div class="cleaner_h10"></div></div>
                       
-                        <label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
-                        <div class="cleaner_h10"></div>
+                      <div class="form-group">  <label for="inputPassword1">Message:</label> <textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" ></textarea>
+                        <div class="cleaner_h10"></div></div>
                         
                         <input type="submit" class="submit_btn" name="submit" id="submit" value="Send" />
                         <input type="reset" class="submit_btn" name="reset" id="reset" value="Reset" />

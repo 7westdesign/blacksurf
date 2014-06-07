@@ -13,17 +13,17 @@ if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
 {
 show_error("Invalid e-mail address");
 }
-
 /* Let's prepare the message for the e-mail */
 
 $subject = "New message from Customer on PikeSurfSchool.com!";
 
-$message = " A customer has sent you a message from PikeSurfSchool.com!:
+$message = "
+
+ A customer has sent you a message from PikeSurfSchool.com!
 
 Name: $name
 Email: $email
 Subject: $subject
-
 Message: $message
 
 ";
@@ -32,7 +32,7 @@ Message: $message
 mail($myemail, $subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: /index.html');
+header('Location: http://citylightselectric.org/thank-you.html');
 exit();
 
 /* Functions we used */

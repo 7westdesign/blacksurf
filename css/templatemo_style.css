@@ -1205,11 +1205,15 @@ margin-left:12px;
 
 #templatemo_footer_wrapper {
 	clear: both;
-
-	width: 100%;
+	width: 1351px;
 	background: #000;margin-top:100px;
 	border-top: 1px solid #000;	
 	border-bottom: 1px solid #000;
+}
+
+.fb-like-box {
+margin-top:50px;
+margin-left:300px;
 }
 
 #templatemo_footer {

@@ -97,7 +97,13 @@ a.button:hover {
 	background:#00B2EE;
 }
 
-ul {
+.infolinks {
+margin:0;
+list-style-type:none;
+color:purple;
+}
+
+ul.listy {
 	margin: 20px;
 	padding: 0;
 	list-style-image:  url(../images/list_icon.png);
@@ -383,12 +389,12 @@ margin-top:0px;
 }
 
 
-#templatemo_content1 #site_title {
+ #site_title {
 	float: left;
 	clear:both;
 	padding: 20px 20px 20px 20px;
-	margin-top:75px;
-	margin-top:10px;
+	
+	margin-top:-10px;
       z-index:100;
 	margin-left:50px;
          background-color:#00B2EE;
@@ -473,7 +479,7 @@ width: 1180px;
 	float: right;
 	clear:both;
 	padding: 20px 20px 20px 20px;
-	margin-top:-50px;
+	margin-top:10px;
 	margin-right:100px;
 background-color:rgba(255,77,196,.8);
       
@@ -780,6 +786,19 @@ background-color:#000;
 position:relative;
 z-index:0;
 margin-top:1300px;
+}
+#content_filler9{
+border-top: 1px solid green;
+	width: 1100px;
+height:150px;
+
+clear:both;
+	padding: 60px 30px;
+	margin:0 auto;
+background-color:#000;
+position:relative;
+z-index:0;
+margin-top:3600px;
 }
 #content_filler66{
 border-top: 1px solid green;
@@ -1256,6 +1275,27 @@ background:#222;
 margin-bottom:0px;
 width:100px;}
 
+.marketing_header100 {
+font-family: 'Open Sans', sans-serif;
+font-weight:lighter;
+font-size:19px;
+margin-left:8px;
+padding-left:8px;
+color:#00B2EE;
+margin-bottom:0px;
+}
+.marketing_header101 {
+font-family: 'Open Sans', sans-serif;
+font-weight:lighter;
+font-size:28px;
+margin-left:8px;
+padding-left:8px;
+color:#fff;
+margin-top:11px;
+margin-bottom:22px;
+}
+
+
 .contacttitle {
 
 font-family: 'Open Sans', sans-serif;
@@ -1302,7 +1342,7 @@ padding-left:8px;
 color:#00FF00;
 background:#222;
 margin-bottom:12px;
-width:130px;}
+width:177px;}
 
 .marketing_header10 {
 font-family: 'Open Sans', sans-serif;
@@ -1370,3 +1410,7 @@ text-decoration:none;
  color:#00B2EE;
 
 }
+#templatemo_copyright a.greenlinked {
+color:#00FF00;
+}
+

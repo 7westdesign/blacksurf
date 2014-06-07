@@ -882,6 +882,8 @@ width:1351px;
 }
 #about_background3 {
 -webkit-filter: brightness(22%);
+filter:  brightness(22%); -webkit-filter:  brightness(22%); -moz-filter:  brightness(22%);
+-o-filter:  brightness(22%); -ms-filter:  brightness(22%);
 z-index:0;
 width:1351px;
 height:645px;
@@ -1000,6 +1002,7 @@ font-size:19px;
 padding-left:8px;
 
 }
+
 
 
 
@@ -1232,6 +1235,16 @@ background:#111;
 margin-bottom:12px;
 width:144px;}
 
+.marketing_header99 {
+font-family: 'Open Sans', sans-serif;
+font-weight:lighter;
+font-size:19px;
+padding-left:8px;
+color:#00FF00;
+background:#111;
+margin-bottom:12px;
+width:110px;}
+
 .marketing_header6 {
 font-family: 'Open Sans', sans-serif;
 font-weight:lighter;
@@ -1269,7 +1282,7 @@ background:#000;
 margin-top:-188px;
 margin-bottom:12px;
 width:144px;
-margin-left:18px;}
+margin-left:14px;}
 
 .marketing_header7 {
 font-family: 'Open Sans', sans-serif;

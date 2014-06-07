@@ -439,6 +439,18 @@ margin-top:-640px;
 width: 1080px;
 }
 
+#templatemo_content69 {
+z-index:100;
+padding: 60px 30px;
+margin: 0 auto;
+height:1000px;
+background-color:rgba(0,0,0,0.8);
+position:relative;
+z-index:10;
+margin-top:-640px;
+width: 1080px;
+}
+
 #services_content {
 margin-left:60px;
 
@@ -681,6 +693,7 @@ background-color:rgba(0,0,0,0.8);
 position:relative;
 z-index:10;
 margin-top:10px;
+margin-left:250px;
 }
 
 #surfrincon {
@@ -757,10 +770,39 @@ z-index:0;
 margin-top:750px;
 }
 
+#content_filler7{
+border-top: 1px solid green;
+	width: 1100px;
+height:150px;
+	padding: 60px 30px;
+	margin:0 auto;
+background-color:#000;
+position:relative;
+z-index:0;
+margin-top:1300px;
+}
+#content_filler66{
+border-top: 1px solid green;
+	width: 1100px;
+height:150px;
+	padding: 60px 30px;
+	margin:0 auto;
+background-color:#000;
+position:relative;
+z-index:0;
+margin-top:1040px;
+}
+
 #cleanme {
 height:270px;
 
 }
+
+#cleanme2 {
+height:1000px;
+
+}
+
 
 #templatemo_content9{
 
@@ -958,6 +1000,7 @@ font-size:19px;
 padding-left:8px;
 
 }
+
 
 
 
@@ -1222,10 +1265,11 @@ font-weight:lighter;
 font-size:19px;
 padding-left:8px;
 color:#00FF00;
-background:#222;
-margin-top:-160px;
+background:#000;
+margin-top:-188px;
 margin-bottom:12px;
-width:144px;}
+width:144px;
+margin-left:18px;}
 
 .marketing_header7 {
 font-family: 'Open Sans', sans-serif;

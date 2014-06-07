@@ -285,7 +285,8 @@ img.mfp-img {
 .mfp-title {
   text-align: left;
   line-height: 18px;
-  color: #FF0080;
+  color: #00FF00;
+font-weight:bold;
   word-wrap: break-word;
   padding-right: 36px; }
 

@@ -1226,8 +1226,8 @@ margin-left:12px;
 
 
 .fb-like-box {
-margin-top:50px;
-margin-left:150px;
+margin-top:45px;
+margin-left:55px;
 float:left;
 }
 #yelpwidget {
@@ -1237,11 +1237,21 @@ float:left;
 }
 
 
+
 #templatemo_footer {
 	width: 930px;
 	padding: 45px 30px;
 	margin: 0 auto;
 	color: #d8d3bd;
+}
+
+
+#templatemo_footer_wrapper #templatemo_footer #egospace{
+background-color:#1A1A1A;
+width:745px;
+height:365px;
+margin:0 auto;
+margin-top:44px;
 }
 
 .footer_box {

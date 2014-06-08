@@ -3,17 +3,25 @@
 <head>
 <meta charset="UTF-8" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>  Welcome | Pike&#039;s Surf N&#039; Skate</title>
+<title>  Welcome | Pike&#039;s Surf School Santa Barbara</title>
 <meta name="keywords" content="Santa Barbara Surf school, surf lessons santa barbara" />
 <meta name="description" content="Give the gift of surfing to yourself and your whole family, in a fun, safe, and beautiful environment!" />
 <meta name="viewport" content="width=1351">
 <link rel="icon" href="/ico/pike_surf_favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/magnific-popup.css"> 
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+
+<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.js"></script> 
 
 </head>
 
 <body>
+
+
 <script>(function() { var s = document.createElement("script");s.async = true;s.onload = s.onreadystatechange = function(){getYelpWidget("pikes-surf-school-santa-barbara","300","YLW","y","y","0");};s.src='http://chrisawren.com/widgets/yelp/yelpv2.js' ;var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);})();</script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -132,16 +140,22 @@
 <div id="templatemo_footer_wrapper">
 	<div id="templatemo_footer">
     <h1 class="marketing_header11">The Results :)</h1>
- <img src="/images/neo1.jpg" alt="Pike Surf School" id="pikesurfimage1"  > 
-    	<img src="/images/botp.jpg" alt="Pike Surf School" id="pikesurfimage1"  >
-<img src="/images/botd.jpg" alt="Pike Surf School" id="pikesurfimage1"  >
-<img src="/images/boty.jpg" alt="Pike Surf School" id="pikesurfimage1"  >
-    <img src="/images/couples.jpg" alt="Pike Surf School" id="pikesurfimage1"  > 
-        
-        <img src="/images/neo2.jpg" alt="Pike Surf School" id="pikesurfimage1"  > 
-    
-    	<div class="fb-like-box" data-href="https://www.facebook.com/pages/Pikes-Surf-N-Sk8/210572495666457" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div><div id='yelpwidget'></div>
-        
+<div class="popup-gallery">
+<a href="images/neo1.jpg" title="Right after a great session!"><img src="images/neo1.jpg" class="popyimg"></a>
+
+	<a href="images/botp.jpg" title="Girls having a blast after surfing"><img src="images/botp.jpg" class="popyimg"></a>
+<a href="images/zen.jpg" title="A young surfing stud in the making!"><img src="images/zen.jpg" class="popyimg"></a>
+
+
+
+<a href="images/24.jpg" title="New and born again surfers"><img src="images/24.jpg" class="popyimg"></a>
+<a href="images/gettinready.jpg" title="Nothing but smiles- Getting ready!"><img src="images/gettinready.jpg" class="popyimg"></a>
+<a href="images/ks.jpg" title="Kelly Slater with a young surfing student"><img src="images/ks.jpg" class="popyimg"></a>
+    </div>
+    	<div id="egospace"><div class="fb-like-box" data-href="https://www.facebook.com/pages/Pikes-Surf-N-Sk8/210572495666457" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div><div id='yelpwidget'></div>
+       </div>
+
+
         <div class="cleaner"></div>
     </div> <!-- end of footer -->
 </div> <!-- end of footer wrapper -->    
@@ -153,5 +167,31 @@
     </div> <!-- end of templatemo_copyright -->
 </div> <!-- end of copyright wrapper -->
 
-<div align=center></div></body>
+<div align=center></div>
+
+<script>
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Pike Surf School</small>';
+			}
+		}
+	});
+});
+</script>
+
+
+
+</body>
 </html>

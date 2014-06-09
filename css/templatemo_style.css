@@ -133,7 +133,7 @@ ul li {
 margin-left:-30px;
 width: 100%;
 height: 61px;
-background-color:rgba(0,0,0,0.4);
+background-color:rgba(0,0,0,0.5);
 z-index:10;
  margin-top:-20px;	
 }
@@ -181,6 +181,10 @@ color: #00B2EE;
 color: #BF5FFF;
 }
 
+.brightp {
+color: #ffa500;
+}
+
 
 .firststand {
 color:#00FF00;
@@ -220,7 +224,7 @@ color:#00FF00;
 	text-align: center;
 	font-size: 14px;
 	text-decoration: none;
-	color: #fff;	
+	color: #00B2EE;	
 	font-weight: normal;
 	outline: none;
 }
@@ -291,6 +295,25 @@ margin-top:0px;
 	height: 62px;
         background-size:cover;
 
+
+}
+
+#sitemap {
+float:left;
+margin-top:0px;
+margin-bottom:0px;
+list-style-type:none;
+
+}
+
+.sitelinks {
+padding:0;
+
+float:left;
+}
+
+.linkies {
+margin-left:20px;
 
 }
 #templatemo_header2 {
@@ -466,7 +489,7 @@ z-index:100;
 padding: 60px 30px;
 margin: 0 auto;
 height:1000px;
-background-color:rgba(0,0,0,0.9);
+background-color:rgba(0,0,0,0.8);
 position:relative;
 z-index:10;
 margin-top:-640px;
@@ -484,7 +507,7 @@ margin-left:60px;
 z-index:100;
 padding: 60px 30px;
 margin: 0 auto;
-background-color:rgba(0,0,0,0.9);
+background-color:rgba(0,0,0,0.8);
 position:relative;
 z-index:10;
 margin-top:-620px;
@@ -498,7 +521,7 @@ height:500px;
 	padding: 20px 20px 20px 20px;
 	margin-top:10px;
 	margin-right:100px;
-background-color:rgba(255,77,196,.8);
+background-color:#FF0080;
       
 }
 
@@ -730,7 +753,7 @@ margin-left:250px;
 
 #surfrincon {
 width:1030px;
-margin-left:0 auto;
+margin:0 auto;
 height:75px;
 padding: 60px 30px;
 background: url(../images/Rincon.jpg) no-repeat;
@@ -741,8 +764,8 @@ z-index:0;
 margin-top:-28px;
 }
 #welcomecenter {
-width:900px;
-margin: 0 auto;
+width:850px;
+margin-left:25px;
 height:160px;
 padding: 60px 30px;
 position:relative;
@@ -750,11 +773,11 @@ z-index:0;
 margin-top:-45px;
 }
 #welcome {
-width:1080px;
-margin-left:-20px;
+width:1016px;
+margin-left:38px;
 height:333px;
 padding: 60px 30px;
-background: url(../images/smoo2.jpg) no-repeat;
+background: url(../images/smoo86.gif) no-repeat;
 position:relative;
 z-index:0;
 margin-top:-28px;
@@ -770,13 +793,13 @@ z-index:0;
 margin-top:-72px;
 }
 #welcomecenter2 {
-width:900px;
-margin: 0 auto;
+width:850px;
+margin-left:25px;
 height:150px;
 padding: 60px 30px;
 position:relative;
 z-index:0;
-margin-top:-74px;
+margin-top:-45px;
 }
 
 
@@ -988,6 +1011,7 @@ color:#fff;
 .two_column8 {
 margin-top:12px;
 margin-left:30px;
+
 width: 400px;
 height:300px;
 }
@@ -1255,27 +1279,43 @@ margin-top:100px;
 }
 
 
+#ego_wrapper {
+	
+	width: 1351px;
+height:400px;
+	background: #000;
+margin-bottom:100px;
+	border-top: 1px solid #000;	
+	border-bottom: 1px solid #000;
+}
 
 #egospace{
-background-color:#000;
+background-color:#171717;
 width:700px;
-height:400px;
+height:350px;
 padding:0;
 height:365px;
 margin:0 auto;
 margin-top:10px;
+
 
 }
 
 .fb-like-box {
 position:relative;
 margin-top:45px;
-margin-left:5px;
+width:305px;
+height:275px;
+background:none;
+margin-left:50px;
 float:left;
 z-index:0;
 }
 #yelpwidget {position:relative;
 margin-top:120px;
+width:235px;
+height:150px;
+background:none;
 margin-left:60px;
 float:left;
 z-index:0;
@@ -1398,7 +1438,7 @@ background:#111;
 margin-top:-180px;
 margin-bottom:24px;
 width:138px;
-margin-left:14px;}
+margin-left:24px;}
 
 .marketing_header7 {
 font-family: 'Open Sans', sans-serif;
@@ -1416,7 +1456,7 @@ font-weight:lighter;
 font-size:19px;
 padding-left:8px;
 color:#BF5FFF;
-background:#222;
+background:#000;
 margin-bottom:12px;
 width:177px;}
 

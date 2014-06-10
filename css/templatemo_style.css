@@ -23,7 +23,13 @@ body {
 .wrapper { min-width:1330px;margin:0 auto;overflow: hidden; }
 
 #toppie {
-float:right;
+width:100%;
+height:25px;
+background:#000;
+margin:0;
+padding:0;
+overflow:hidden;
+
 
 }
 
@@ -141,11 +147,12 @@ ul li {
 
 #templatemo_menu_wrapper {
 margin-left:-30px;
-width: 100%;
-height: 61px;
+width: 1351px;
+height: 68px;
 background-color:rgba(0,0,0,0.3);
 z-index:10;
- margin-top:-20px;	
+margin-top:-19px;
+	
 }
 
 
@@ -202,34 +209,34 @@ color:#00FF00;
 
 #templatemo_menu {
 	width: 900px;
-	height: 62px;
+	height: 67px;
 	margin-right: -130px;
 	padding: 0;
-	margin-top:-53px;
+	margin-top:6px;
 	float:right;
         z-index:10;
-
-	
 }
 
 #templatemo_menu ul {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
+
 }
 
 #templatemo_menu ul li{
 	padding: 0px;
 	margin: 0px;
 	display: inline;
+
 }
 
 #templatemo_menu ul li a{
 	float: left;
 	display: block;
-	width: 118px;
-	height: 42px;
-	padding: 19px 0 0 0;
+	width: 105px;
+	height: 45px;
+	padding: 21px 0 0 0;
 	margin-right: 1px;
 	text-align: center;
 	font-size: 14px;
@@ -237,6 +244,8 @@ color:#00FF00;
 	color: #99e0f8;	
 	font-weight: normal;
 	outline: none;
+
+
 }
 #templatemo_menu li .current {background:#00FF00;
 color: #000;
@@ -270,6 +279,8 @@ a.paynow {
 font-size:11px;
 float:right;
 margin-right:49px;
+margin:top:0px;
+margin-bottom:0px;
 color:#fff;
 text-decoration:none;
 padding:3px;
@@ -294,17 +305,18 @@ text-decoration:none;
 
 .greencall {
 color:#00B2EE;
+margin:0;
 }
 
 
-#templatemo_header {
+ #templatemo_header {
 z-index:0;
-margin-top:0px;
+margin-top:55px;
 	background: url(../images/12.jpg) no-repeat;
 	width: 100%;
 	padding: 20px 30px;
 	margin: 0 auto;
-	height: 62px;
+	height: 68px;
         background-size:cover;
 
 
@@ -350,7 +362,8 @@ margin-top:0px;
 	width: 100%;
 	height: 63px;
         background: #fff;
-        margin-top:25px;
+        margin-top:1px;
+padding:0;
 }
 
 
@@ -443,7 +456,7 @@ margin-top:0px;
 	margin-top:-10px;
       z-index:100;
 	margin-left:77px;
-         background-color:#00B2EE;
+         background-color:rgba(0,178,238,0.5);
 }
 
  #templatemo_content1  #site_title h1 {color:#fff;
@@ -535,7 +548,7 @@ height:500px;
 	padding: 20px 20px 20px 20px;
 	margin-top:10px;
 	margin-right:30px;
-background-color:#FF0080;
+background-color:rgba(255,0,128,0.8);
       
 }
 
@@ -603,7 +616,7 @@ background-color:#FF0080;
 #companylogo {
 width:410px;
 margin-left:50px;
-margin-top:9px;
+margin-top:13px;
 }
 
 #part4 { display:inline-block; margin-right0px;margin-top:0px; margin-bottom:10px; margin-right:20px; float:left; width: 146px;
@@ -733,7 +746,7 @@ background:#fff;
 /* content*/
 
 #templatemo_content_wrapper {
-margin-top:0;
+margin-top:0px;
 	clear: both;
 	width: 100%;
         background:#000;

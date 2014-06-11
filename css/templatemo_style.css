@@ -218,16 +218,43 @@ background-color:rgba(0,0,0,0.8);
 font-size:13px;
 line-height:155%;
 
+
+}
+
+#foryouth {
+padding-top:0px;
+text-indent:5px;
+color:#CDCDCD;
+padding-left:15px;
+padding-right:15px;
+background-color:rgba(0,0,0,0.8);
+font-size:13px;
+line-height:155%;
+padding-bottom:10px;
+
+}
+
+#foradults {
+padding-top:0px;
+text-indent:5px;
+color:#CDCDCD;
+padding-left:15px;
+padding-right:15px;
+background-color:rgba(0,0,0,0.8);
+font-size:13px;
+line-height:155%;
+padding-bottom:15px;
+
 }
 
 .topshow {
 margin-bottom:20px;
 text-indent:5px;
-color:#fff;
+color:#CDCDCD;
 padding:15px;
 left:0;
 font-size:13px;
-line-height:144%;
+line-height:148%;
 }
 
 .topshow7 {
@@ -335,7 +362,7 @@ float:right;
 margin-right:49px;
 margin:top:0px;
 margin-bottom:0px;
-color:#fff;
+color:#b2ee00;
 text-decoration:none;
 padding:3px;
 }
@@ -387,7 +414,7 @@ text-align:center;
 }
 .sitemap {
 float:center;
-margin-left:66px;
+margin-left:77px;
 margin-top:0px;
 text-align:center;
 margin-bottom:0px;
@@ -519,7 +546,6 @@ margin-top:0px;
 	float: left;
 	clear:both;
 	padding: 20px 20px 20px 20px;
-	
 	margin-top:-10px;
       z-index:100;
 	margin-left:77px;
@@ -530,7 +556,7 @@ margin-top:0px;
         font-size:25px;
 	margin: 0;
 	padding: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,1);
+        text-shadow: 2px 2px 3px #000;
 }
 
 .about_heading {
@@ -625,9 +651,9 @@ height:auto;
 	float: right;
 	clear:both;
 	padding: 20px 20px 20px 20px;
-	margin-top:10px;
+	margin-top:15px;
 	margin-right:30px;
-background-color:rgba(255,0,128,0.8);
+background-color:#ee00b2;
       
 }
 
@@ -674,7 +700,15 @@ background-color:rgba(255,0,128,0.8);
 	clear:both;
 	margin-top:28px;
 	margin-right:74px;
-          background:#00FF00;
+          background:#00ee3c;
+}
+
+#templatemo_content1  #site_marketing3 .button:hover {
+	float: right;
+	clear:both;
+	margin-top:28px;
+	margin-right:74px;
+          background:#00ee00;
 }
 
 #templatemo_content1  #site_marketing h1 {color:#fff;
@@ -923,7 +957,7 @@ margin-top:-45px;
 #welcome {
 width:1016px;
 margin-left:38px;
-height:375px;
+height:415px;
 padding: 60px 30px;
 background: url(../images/bestbw.gif) no-repeat;
 position:relative;
@@ -940,6 +974,9 @@ position:relative;
 z-index:0;
 margin-top:-72px;
 }
+
+
+
 #welcomecenter2 {
 width:850px;
 margin-left:25px;
@@ -947,7 +984,7 @@ height:150px;
 padding: 60px 30px;
 position:relative;
 z-index:0;
-margin-top:-45px;
+margin-top:-35px;
 }
 
 
@@ -972,7 +1009,7 @@ height:150px;
 background-color:#000;
 position:relative;
 z-index:0;
-margin-top:3800px;
+margin-top:4000px;
 }
 
 #content_filler75{
@@ -1075,7 +1112,7 @@ color:#fff;
 }
 
 .whitedes {
-color:#008aee;
+color:#ffa500;
 }
 
 .greendes {
@@ -1600,6 +1637,7 @@ font-size:19px;
 padding-left:8px;
 color:#00FF00;
 background:#111;
+
 margin-bottom:12px;
 width:110px;}
 
@@ -1658,7 +1696,7 @@ font-size:19px;
 padding-left:8px;
 color:#00FF00;
 background:#111;
-margin-top:-180px;
+margin-top:-135px;
 margin-bottom:24px;
 width:138px;
 margin-left:28px;}

@@ -15,11 +15,11 @@ show_error("Invalid e-mail address");
 }
 /* Let's prepare the message for the e-mail */
 
-$subject = "New message from Customer on PikeSurfSchool.com!";
+$subject = "New message from Customer on PikeSurfAcademy.com!";
 
 $message = "
 
- A customer has sent you a message from PikeSurfSchool.com!
+ A customer has sent you a message from PikeSurfAcademy.com!
 
 Name: $name
 Email: $email
@@ -32,7 +32,7 @@ Message: $message
 mail($myemail, $subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: http://citylightselectric.org/thank-you.html');
+header('Location: http://www.pikesurfacademy.com/contact.html');
 exit();
 
 /* Functions we used */

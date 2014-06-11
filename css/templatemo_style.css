@@ -1,13 +1,58 @@
 /*
-CSS Credit: http://www.templatemo.com/
+CSS for Pike Surf Academy 
 */
-/* copyright */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 html, body {
     margin: 0;
     padding: 0;
 
 }
+
 
 body {
 	margin:0px;
@@ -332,17 +377,19 @@ margin-top:55px;
 }
 
 #sitemap {
-float:left;
-margin-top:0px;
+float:center;
+margin-top:15px;
 margin-bottom:0px;
-margin-left:22px;
+margin-left:315px;
 list-style-type:none;
+text-align:center;
 
 }
 .sitemap {
-float:left;
+float:center;
 margin-left:33px;
 margin-top:0px;
+text-align:center;
 margin-bottom:0px;
 list-style-type:none;
 
@@ -351,13 +398,13 @@ list-style-type:none;
 
 .sitelinks {
 padding:0;
-color:#FF0080;
+color:#BF5FFF;
 float:left;
 }
 
-a.linkies {
+.linkies {
 margin-left:20px;
-color:#FF0080;
+color:#BF5FFF;
 
 }
 #templatemo_header2 {
@@ -671,7 +718,7 @@ padding:2px 2px 2px 0px;
 }
 
 #templatemo_top_row_wrapper {
-margin-top:430px;
+margin-top:440px;
 	
 	width: 100%;
 	height: 170px;
@@ -816,13 +863,41 @@ position:absolute;
 height:725px;
 	padding: 60px 30px;
 	margin: 0 auto;
-background-color:rgba(0,0,0,0.8);
+background-color:#000;
 position:relative;
 z-index:10;
 margin-top:10px;
 margin-left:250px;
 }
 
+.form-horizontal {
+margin:0;
+    padding:0;
+
+}
+
+
+form{
+    margin:0px;
+    padding:0px;
+}
+
+#templatemo_content87 {
+
+	width: 1030px;
+height:725px;
+	padding: 60px 30px;
+	margin: 0 auto;
+background-color:rgba(0,0,0,0.8);
+position:absolute;
+margin-top:10px;
+
+}
+
+#left_contact {
+float:left;
+
+}
 
 #surfrincon {
 width:1030px;
@@ -1094,6 +1169,7 @@ margin-left:177px;
 }
 .two_column {
 	width: 430px;
+height:auto;
 }
 
 .two_column7 {
@@ -1311,7 +1387,22 @@ margin-left:12px;
 #contact_form {
 	float: left;
 	padding: 0;
+margin:0;
+position: relative;
 }
+
+#contact_form  .form-horizontal {
+padding: 0;
+margin:0;
+position: relative;
+}
+
+ #contact_form .form-horizontal{
+margin: 0px;
+	padding: 0px;
+
+}
+
 
 #contact_form form {
 	margin: 0px;
@@ -1570,7 +1661,7 @@ background:#111;
 margin-top:-180px;
 margin-bottom:24px;
 width:138px;
-margin-left:24px;}
+margin-left:28px;}
 
 .marketing_header7 {
 font-family: 'Open Sans', sans-serif;
@@ -1661,7 +1752,7 @@ width:155px;}
 /* end of copyright */
 #templatemo_copyright_wrapper {
 	width: 100%;
-      
+      height:100px;
 	background: #000000;
 	border-top: 1px solid #262626;
 }
@@ -1681,7 +1772,7 @@ color:#00FF00;
 #templatemo_copyright a {
 	color: #fff;
 text-decoration:none;
- color:#FF0080;
+ color:#BF5FFF;
 
 }
 #templatemo_copyright a.greenlinked {

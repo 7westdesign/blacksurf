@@ -1,6 +1,6 @@
 <?php
 /* Set e-mail recipient */
-$myemail = "westaraluce@gmail.com";
+$myemail = "pike.schoolofstyle@yahoo.com";
 
 /* Check all form inputs using check_input function */
 $name = check_input($_POST['inputName'], "Your Name");
@@ -15,7 +15,7 @@ show_error("Invalid e-mail address");
 }
 /* Let's prepare the message for the e-mail */
 
-$subject = "New message from Customer on PikeSurfAcademy.com!";
+$subject = "New message from a Customer on PikeSurfAcademy.com!";
 
 $message = "
 
@@ -32,7 +32,7 @@ Message: $message
 mail($myemail, $subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: http://www.pikesurfacademy.com/contact.html');
+header('Location: http://www.pikesurfacademy.com/thank-you.html');
 exit();
 
 /* Functions we used */

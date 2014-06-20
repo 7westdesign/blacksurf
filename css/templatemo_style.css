@@ -346,6 +346,7 @@ color:#BF5FFF;
 
 #standout {
 color:#6bff4d;
+text-shadow: 2px 2px 3px #000;
 }
 .standout2 {
 color:#6bff4d;
@@ -968,6 +969,8 @@ margin-top:-45px;
 }
 #welcome {
 width:1016px;
+
+
 margin-left:38px;
 height:415px;
 padding: 60px 30px;
@@ -1529,6 +1532,7 @@ margin-top:135px;
 #ego_wrapper {
 	
 	width: 1351px;
+
 height:300px;
 	background: #000;
 margin-bottom:75px;

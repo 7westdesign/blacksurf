@@ -408,14 +408,14 @@ margin-top:55px;
 float:center;
 margin-top:15px;
 margin-bottom:0px;
-margin-left:315px;
+margin-left:270px;
 list-style-type:none;
 text-align:center;
 
 }
 .sitemap {
 float:center;
-margin-left:77px;
+margin-left:0px;
 margin-top:0px;
 text-align:center;
 margin-bottom:0px;
@@ -426,13 +426,12 @@ list-style-type:none;
 
 .sitelinks {
 padding:0;
-color:#BF5FFF;
 float:left;
 }
 
 .linkies {
 margin-left:20px;
-color:#BF5FFF;
+color:#00B2EE;
 
 }
 #templatemo_header2 {
@@ -645,7 +644,7 @@ position:relative;
 z-index:10;
 margin-top:-620px;
 width: 1180px;
-height:auto;
+height:1500px;
 }
 
 #templatemo_content1  .site_marketing_first {
@@ -807,7 +806,7 @@ position:relative;
 	
 	float: left;
 	width: 300px;
-	height: 300px;
+	height: 200px;
 	padding: 0;
 	margin-right:22px;
 	background-color:#DCDCDC;
@@ -1024,7 +1023,7 @@ height:150px;
 background-color:#000;
 position:relative;
 z-index:0;
-margin-top:4100px;
+margin-top:2100px;
 }
 
 #content_filler75{
@@ -1096,7 +1095,7 @@ height:150px;
 background-color:#000;
 position:relative;
 z-index:0;
-margin-top:1430px;
+margin-top:1830px;
 }
 
 #cleanme {
@@ -1127,7 +1126,7 @@ color:#fff;
 }
 
 .whitedes {
-color:#ffa500;
+color:#00B2EE;
 }
 
 .greendes {
@@ -1521,7 +1520,7 @@ margin: 0px;
 #templatemo_footer_wrapper {
 	
 	width: 1351px;
-height:400px;
+height:700px;
 	background: #000;
 margin-top:135px;
 	border-top: 1px solid #000;	
@@ -1530,10 +1529,10 @@ margin-top:135px;
 
 
 #ego_wrapper {
-	
+position:relative;
 	width: 1351px;
-
 height:300px;
+margin:0 auto;
 	background: #000;
 margin-bottom:75px;
 	border-top: 1px solid #000;	
@@ -1592,7 +1591,7 @@ margin-top:120px;
 width:235px;
 height:150px;
 background:none;
-margin-left:60px;
+margin-left:30px;
 float:left;
 z-index:0;
 }
@@ -1645,6 +1644,30 @@ color:#00FF00;
 background:#111;
 margin-bottom:12px;
 width:144px;}
+
+.marketing_header28{
+font-family: 'Open Sans', sans-serif;
+font-weight:lighter;
+font-size:19px;
+padding-left:18px;
+color:#fff;
+margin-left:11px;
+background:#111;
+margin-bottom:33px;
+width:225px;
+}
+.marketing_header29{
+font-family: 'Open Sans', sans-serif;
+font-weight:lighter;
+font-size:19px;
+margin-top:-20px;
+padding-left:18px;
+margin-left:11px;
+color:#fff;
+background:#111;
+margin-bottom:0px;
+width:200px;
+}
 
 .marketing_header99 {
 font-family: 'Open Sans', sans-serif;
@@ -1832,7 +1855,7 @@ color:#00FF00;
 #templatemo_copyright a {
 	color: #fff;
 text-decoration:none;
- color:#BF5FFF;
+ color:#00B2EE;
 
 }
 #templatemo_copyright a:hover {
